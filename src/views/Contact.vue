@@ -1,11 +1,11 @@
 <script>
 export default {
-  name: "Projects"
+  name: "Contact"
 }
 </script>
 
 <template>
-  <h1>projects page</h1>
+  <h1>contact page</h1>
 </template>
 
 <style scoped>

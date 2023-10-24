@@ -1,8 +1,7 @@
 {
   "name": "parker-martin",
-  "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,9 +12,7 @@
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
-    "naive-ui": "^2.35.0",
-    "vfonts": "^0.0.3",
-    "vite": "^4.4.5"
+    "@vitejs/plugin-vue": "^4.4.0",
+    "vite": "^4.4.11"
   }
 }
