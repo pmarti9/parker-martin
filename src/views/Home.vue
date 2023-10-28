@@ -1,5 +1,8 @@
-<script setup>
-console.log("hello world from the vue component")
+<script>
+export default {
+  name: "Home"
+}
+
 </script>
 
 <template>
@@ -7,3 +10,8 @@ console.log("hello world from the vue component")
    <h1>home page</h1>
   </main>
 </template>
+
+<style scoped>
+
+
+</style>

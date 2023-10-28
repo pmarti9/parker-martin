@@ -1,15 +1,18 @@
 <template>
   <div class="projects">
     <h1>Projects page</h1>
+    <ProjectCard />
   </div>
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .projects {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
+
 </style>
+
+<script>
+import ProjectCard from '@/components/ProjectCard.vue'
+
+export default {
+  name: "Projects"
+}
+</script>
